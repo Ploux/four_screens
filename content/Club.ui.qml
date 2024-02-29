@@ -8,6 +8,9 @@ Check out https://doc.qt.io/qtcreator/creator-quick-ui-forms.html for details on
 */
 import QtQuick 6.5
 import QtQuick.Controls 6.5
+import QtQuick.Layouts 1.15
+import QtQuick.Studio.Components 1.0
+import QtQuick.Shapes 1.0
 import Humo_App_20240229_02
 
 Rectangle {

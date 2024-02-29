@@ -14,42 +14,6 @@ Rectangle {
     property alias ageText: age.text
     property alias username2Text: username2.text
 
-    Item {
-        id: group_1
-        x: 0
-        y: 0
-        width: 1194
-        height: 834
-        visible: false
-        Item {
-            id: system_area
-            x: 0
-            y: 0
-            width: 1194
-            height: 834
-            System_Area {
-                id: system_Area
-                width: 1194
-                height: 20
-                anchors.top: parent.top
-                system_Area1Text: "Status bar"
-                clip: true
-                anchors.horizontalCenter: parent.horizontalCenter
-            }
-
-            System_Area {
-                id: system_Area1
-                width: 1194
-                height: 34
-                anchors.bottom: parent.bottom
-                system_Area1Text: "Home Indicator"
-                clip: true
-                anchors.horizontalCenter: parent.horizontalCenter
-            }
-        }
-
-    }
-
     SvgPathItem {
         id: line_1_Stroke_
         width: 964
