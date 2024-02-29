@@ -1,7 +1,7 @@
 import QmlProject
 
 Project {
-    mainFile: "content/App.qml"
+    mainFile: "content/login_dark (Copy)/IPad_Pro_11_Sign_In.ui.qml"
     mainUiFile: "content/Signin.ui.qml"
 
     /* Include .qml, .js, and image files from current directory and subdirectories */
