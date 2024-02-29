@@ -6,7 +6,7 @@ Rectangle {
     id: iPad_Pro_11_Sign_In
     width: 1194
     height: 834
-    color: "#0e2231"
+    color: "#ffffff"
     property alias passwordText: password.text
     property alias yearsText: years.text
     property alias sign_inText: sign_in.text
@@ -211,7 +211,7 @@ Rectangle {
         id: logo
         width: 477
         height: 43
-        color: "transparent"
+        color: "ffffff"
         anchors.top: parent.top
         anchors.topMargin: 111
         Item {
@@ -491,8 +491,6 @@ D{i:26;uuid:"97ad6a91-5b20-5191-893e-cfeb58b23747"}D{i:27;uuid:"11999abf-60b5-57
 D{i:28;uuid:"39495ac2-ed93-55e6-921a-5dab02ed618c"}D{i:29;uuid:"c03f5fe5-0a43-5967-8e46-2aa4ad377dfa"}
 D{i:30;uuid:"ad192200-e85a-569c-afe4-c4975413d49d"}D{i:31;uuid:"43e4f6cd-aa83-55e6-8541-312de6c86d35"}
 D{i:32;uuid:"80903f15-b3b4-56e8-abfa-13db8099ae24"}D{i:33;uuid:"70da435a-2ca2-5c24-b384-6e8da3d144b1"}
-D{i:34;uuid:"23188589-da7c-588a-8ccd-5a18a86027e3"}D{i:35;uuid:"7e2177cf-7699-5a77-a7c5-eac84acf48d4"}
-D{i:36;uuid:"733149c3-f82e-5fc9-ba40-1108aacd95b2"}D{i:37;uuid:"0e80792e-af7a-53bb-a3d7-0af6e5fdcc9f"}
 }
 ##^##*/
 
