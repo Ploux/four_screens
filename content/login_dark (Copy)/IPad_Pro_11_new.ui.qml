@@ -22,52 +22,6 @@ Rectangle {
     property alias ageText: age.text
     property alias save1Text: save1.text
 
-    Item {
-        id: group_1
-        x: 0
-        y: 0
-        width: 1194
-        height: 834
-        visible: false
-        Item {
-            id: system_area
-            x: 0
-            y: 0
-            width: 1194
-            height: 834
-            System_Area {
-                id: system_Area
-                width: 1194
-                height: 20
-                anchors.top: parent.top
-                system_Area1Text: "Status bar"
-                clip: true
-                anchors.horizontalCenter: parent.horizontalCenter
-            }
-
-            System_Area {
-                id: system_Area1
-                width: 1194
-                height: 34
-                anchors.bottom: parent.bottom
-                system_Area1Text: "Home Indicator"
-                clip: true
-                anchors.horizontalCenter: parent.horizontalCenter
-            }
-        }
-
-        Safe_Area {
-            id: safe_Area
-            width: 1162
-            anchors.top: parent.top
-            anchors.bottom: parent.bottom
-            anchors.topMargin: 20
-            anchors.bottomMargin: 34
-            clip: true
-            anchors.horizontalCenter: parent.horizontalCenter
-        }
-    }
-
     SvgPathItem {
         id: line_1_Stroke_
         width: 964
@@ -764,34 +718,9 @@ Rectangle {
 
 /*##^##
 Designer {
-    D{i:0;uuid:"e0cdc0b4-9fd3-5cba-836e-e4d46dd9b54c"}D{i:1;uuid:"a954c79d-dce3-55d7-b8d8-3cd63039b486"}
-D{i:2;uuid:"a0640514-8bef-51f5-8202-b239a1f9905a"}D{i:3;uuid:"061ab861-beea-53ac-84d4-ccda3d8b9a58"}
-D{i:4;uuid:"d4af5c4a-0088-56c6-b2e6-f23b571699c9"}D{i:5;uuid:"1356fe93-bddf-5fed-b8a1-c566fd0433d1"}
-D{i:6;uuid:"70f1af2c-2893-5895-a2ff-fb3e0e28719f"}D{i:7;uuid:"72f5d102-b1d2-58be-b479-88d33bd1de36"}
-D{i:8;uuid:"13c359f9-8739-52b4-b2d6-879ff5654594"}D{i:9;uuid:"86c40ef4-222d-5912-8a23-063ea41841f5"}
-D{i:10;uuid:"af2369e3-27e8-5878-9412-7694821cb433"}D{i:11;uuid:"6d2a239d-4f74-5cce-90b2-fff6edf97bd4"}
-D{i:12;uuid:"9d948be6-b5aa-5ffa-b5b4-5581dddc09b4"}D{i:13;uuid:"e9c22153-2485-5d88-bffc-eaf2c5986943"}
-D{i:14;uuid:"810245fe-5f54-5612-8679-f96cfe9fab20"}D{i:15;uuid:"f9b6ae9d-a365-58d1-9545-70b6beb13556"}
-D{i:16;uuid:"26fe191b-80b9-51e3-83ae-1f72ce893dcb"}D{i:17;uuid:"dcad4054-8777-57a1-b166-6b92d924086b"}
-D{i:18;uuid:"8b7761d0-70ff-5742-8668-5778e4431165"}D{i:19;uuid:"f7a8859c-75cb-5bd1-b003-9df0dbb607c2"}
-D{i:20;uuid:"d10a8c4b-c0ff-57c2-ad6b-699ebbc63da2"}D{i:21;uuid:"f4b19efa-8f7c-51e4-aa5e-42d296faaff9"}
-D{i:22;uuid:"7d455349-571b-518d-a0c7-74c207ddf5e5"}D{i:23;uuid:"3b6088e1-7ba1-5c14-a474-885747f1322e"}
-D{i:24;uuid:"540f9764-1884-58a9-b19a-094fdcca773e"}D{i:25;uuid:"34107276-45d6-5a1e-a2e2-beecd3aa24a5"}
-D{i:26;uuid:"0d488e45-abf4-5917-9978-b099161eec93"}D{i:27;uuid:"258f00d6-70e4-5a16-8b6c-6618873042eb"}
-D{i:28;uuid:"4a7e4d21-3009-5650-9a4f-ce066811e579"}D{i:29;uuid:"4781f9ee-56d0-5035-b645-0578cc8d716e"}
-D{i:30;uuid:"2bd88b56-2b12-52d5-bd47-1e0aaf7d571f"}D{i:31;uuid:"67b481b6-85b8-52ae-8dad-18ff35a6ef4c"}
-D{i:32;uuid:"fb590c1a-ee74-56af-bcac-560c221830e0"}D{i:33;uuid:"94d52a71-cadf-53c1-91ca-82f6a297a6c6"}
-D{i:34;uuid:"247dde21-c593-5bfa-b682-4ae0cbf6e209"}D{i:35;uuid:"a300e275-b8e6-5c01-8a62-5112970c79db"}
-D{i:36;uuid:"05f9f9f0-f6ca-5936-b155-bb111eda3840"}D{i:37;uuid:"9f71866d-e849-580f-bf4d-11a2d8bbaabc"}
-D{i:38;uuid:"44ff09df-c8c7-56a6-88c9-993cacdf02e1"}D{i:39;uuid:"b619252e-d5d4-50c4-83fc-a02be403fade"}
-D{i:40;uuid:"47e74a2b-7b93-5217-9678-9fe530109a77"}D{i:41;uuid:"3348a653-f3c0-5b78-825d-837e8156eab2"}
-D{i:42;uuid:"bf82b7fe-2016-5928-a14f-e16ae3285aa7"}D{i:43;uuid:"4f5e61b6-03ae-5fab-b6cf-f514f6e038f2"}
-D{i:44;uuid:"dea39e81-fd76-509c-b6ed-3895191c91b7"}D{i:45;uuid:"dfb5cddf-c772-53e3-9575-3222ba340ea5"}
-D{i:46;uuid:"44662870-0dde-53c4-ab88-cd862b9bc392"}D{i:47;uuid:"3565eace-df7b-586a-925c-767c5bd39f72"}
-D{i:48;uuid:"fbaa54f0-2db4-51e8-9632-40d404da5d09"}D{i:49;uuid:"d6bdf873-3439-562b-85b1-7fb0332e29ec"}
-D{i:50;uuid:"6dbe3f6b-4a18-51c0-a09a-6791cb6d1254"}D{i:51;uuid:"ce6de437-031c-50b1-81d3-c545651fc8ed"}
-D{i:52;uuid:"bcad94b7-cf8b-56d7-821d-7e32ef80ce0b"}D{i:53;uuid:"ae029f43-be98-53ae-8fab-560112feda5f"}
-D{i:54;uuid:"b4945d23-4ddb-531c-9100-ce33041d7e56"}D{i:55;uuid:"fe8b6a2e-11d8-5914-838f-c88edc678216"}
+    D{i:0;uuid:"e0cdc0b4-9fd3-5cba-836e-e4d46dd9b54c"}D{i:29;uuid:"72f5d102-b1d2-58be-b479-88d33bd1de36"}
+D{i:32;uuid:"247dde21-c593-5bfa-b682-4ae0cbf6e209"}D{i:33;uuid:"a300e275-b8e6-5c01-8a62-5112970c79db"}
+D{i:49;uuid:"05f9f9f0-f6ca-5936-b155-bb111eda3840"}
 }
 ##^##*/
 

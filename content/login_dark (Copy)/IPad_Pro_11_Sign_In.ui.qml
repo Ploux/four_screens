@@ -48,16 +48,6 @@ Rectangle {
             }
         }
 
-        Safe_Area {
-            id: safe_Area
-            width: 1162
-            anchors.top: parent.top
-            anchors.bottom: parent.bottom
-            anchors.topMargin: 20
-            anchors.bottomMargin: 34
-            clip: true
-            anchors.horizontalCenter: parent.horizontalCenter
-        }
     }
 
     SvgPathItem {
@@ -522,24 +512,23 @@ Rectangle {
 Designer {
     D{i:0;uuid:"fddcbbe1-4971-5542-92b1-307e922b7743"}D{i:1;uuid:"eb66b6c8-e366-5141-b840-4d79dd2b89d3"}
 D{i:2;uuid:"b1971f5c-1939-5c65-b7fb-7e4b97406fb2"}D{i:3;uuid:"4a12aa1a-6fff-5ffc-8f71-9da4d7fb645b"}
-D{i:4;uuid:"b93e4dcd-aeff-5acd-a628-3b0432e9b389"}D{i:5;uuid:"324494e7-cb40-5653-aa9d-004c1a0cf544"}
-D{i:6;uuid:"13774e5f-909b-5555-adf8-1e60531d5346"}D{i:7;uuid:"51217622-af0f-5922-94ad-1d35ecaddc8e"}
-D{i:8;uuid:"793159a6-2196-5fcf-9424-40a5a183a9c5"}D{i:9;uuid:"60206b51-5f9e-53c9-bab4-c842ee696468"}
-D{i:10;uuid:"495bb5e1-a6ec-5437-8717-5f89cd6e8bfe"}D{i:11;uuid:"3e26fadc-e476-54c0-9193-927e1d78d66c"}
-D{i:12;uuid:"89f22b5e-6c15-5ab6-be30-14a450a86d7c"}D{i:13;uuid:"12c78b84-1d98-59f1-879c-b53c1b937e62"}
-D{i:14;uuid:"3e7bb83f-5a7d-5a48-b2ce-58424a4d6cf2"}D{i:15;uuid:"302ba57b-5300-5b0a-b0b1-d3ea6a2626ef"}
-D{i:16;uuid:"2f4c3895-c499-5fa6-9b12-3f268986f204"}D{i:17;uuid:"8fff6be5-b45f-5216-8f81-ea3c258c8e70"}
-D{i:18;uuid:"c39185fc-72d0-5a2a-9d05-e7d4a674c6a2"}D{i:19;uuid:"1f96ddb1-b032-5db4-8c99-82275255e366"}
-D{i:20;uuid:"5430b9d7-df40-5472-acdc-7ff428205a0f"}D{i:21;uuid:"b6c60b09-26b8-50fc-a1f6-7d158b8acbb7"}
-D{i:22;uuid:"828eab18-8bad-5599-b3cf-34c47440bead"}D{i:23;uuid:"e461416f-68a1-52c0-b5f7-49e18c9f41a0"}
-D{i:24;uuid:"b251d662-8012-53b3-9994-5028efcf853d"}D{i:25;uuid:"1e2021b6-ea6a-5830-acf0-857c91afa147"}
-D{i:26;uuid:"dccf5fd3-9832-5436-b5e2-daf9e94ab0b5"}D{i:27;uuid:"97ad6a91-5b20-5191-893e-cfeb58b23747"}
-D{i:28;uuid:"11999abf-60b5-57b3-9bda-dd0f3cdf6799"}D{i:29;uuid:"39495ac2-ed93-55e6-921a-5dab02ed618c"}
-D{i:30;uuid:"c03f5fe5-0a43-5967-8e46-2aa4ad377dfa"}D{i:31;uuid:"ad192200-e85a-569c-afe4-c4975413d49d"}
-D{i:32;uuid:"43e4f6cd-aa83-55e6-8541-312de6c86d35"}D{i:33;uuid:"80903f15-b3b4-56e8-abfa-13db8099ae24"}
-D{i:34;uuid:"70da435a-2ca2-5c24-b384-6e8da3d144b1"}D{i:35;uuid:"23188589-da7c-588a-8ccd-5a18a86027e3"}
-D{i:36;uuid:"7e2177cf-7699-5a77-a7c5-eac84acf48d4"}D{i:37;uuid:"733149c3-f82e-5fc9-ba40-1108aacd95b2"}
-D{i:38;uuid:"0e80792e-af7a-53bb-a3d7-0af6e5fdcc9f"}
+D{i:4;uuid:"b93e4dcd-aeff-5acd-a628-3b0432e9b389"}D{i:5;uuid:"13774e5f-909b-5555-adf8-1e60531d5346"}
+D{i:6;uuid:"51217622-af0f-5922-94ad-1d35ecaddc8e"}D{i:7;uuid:"793159a6-2196-5fcf-9424-40a5a183a9c5"}
+D{i:8;uuid:"60206b51-5f9e-53c9-bab4-c842ee696468"}D{i:9;uuid:"495bb5e1-a6ec-5437-8717-5f89cd6e8bfe"}
+D{i:10;uuid:"3e26fadc-e476-54c0-9193-927e1d78d66c"}D{i:11;uuid:"89f22b5e-6c15-5ab6-be30-14a450a86d7c"}
+D{i:12;uuid:"12c78b84-1d98-59f1-879c-b53c1b937e62"}D{i:13;uuid:"3e7bb83f-5a7d-5a48-b2ce-58424a4d6cf2"}
+D{i:14;uuid:"302ba57b-5300-5b0a-b0b1-d3ea6a2626ef"}D{i:15;uuid:"2f4c3895-c499-5fa6-9b12-3f268986f204"}
+D{i:16;uuid:"8fff6be5-b45f-5216-8f81-ea3c258c8e70"}D{i:17;uuid:"c39185fc-72d0-5a2a-9d05-e7d4a674c6a2"}
+D{i:18;uuid:"1f96ddb1-b032-5db4-8c99-82275255e366"}D{i:19;uuid:"5430b9d7-df40-5472-acdc-7ff428205a0f"}
+D{i:20;uuid:"b6c60b09-26b8-50fc-a1f6-7d158b8acbb7"}D{i:21;uuid:"828eab18-8bad-5599-b3cf-34c47440bead"}
+D{i:22;uuid:"e461416f-68a1-52c0-b5f7-49e18c9f41a0"}D{i:23;uuid:"b251d662-8012-53b3-9994-5028efcf853d"}
+D{i:24;uuid:"1e2021b6-ea6a-5830-acf0-857c91afa147"}D{i:25;uuid:"dccf5fd3-9832-5436-b5e2-daf9e94ab0b5"}
+D{i:26;uuid:"97ad6a91-5b20-5191-893e-cfeb58b23747"}D{i:27;uuid:"11999abf-60b5-57b3-9bda-dd0f3cdf6799"}
+D{i:28;uuid:"39495ac2-ed93-55e6-921a-5dab02ed618c"}D{i:29;uuid:"c03f5fe5-0a43-5967-8e46-2aa4ad377dfa"}
+D{i:30;uuid:"ad192200-e85a-569c-afe4-c4975413d49d"}D{i:31;uuid:"43e4f6cd-aa83-55e6-8541-312de6c86d35"}
+D{i:32;uuid:"80903f15-b3b4-56e8-abfa-13db8099ae24"}D{i:33;uuid:"70da435a-2ca2-5c24-b384-6e8da3d144b1"}
+D{i:34;uuid:"23188589-da7c-588a-8ccd-5a18a86027e3"}D{i:35;uuid:"7e2177cf-7699-5a77-a7c5-eac84acf48d4"}
+D{i:36;uuid:"733149c3-f82e-5fc9-ba40-1108aacd95b2"}D{i:37;uuid:"0e80792e-af7a-53bb-a3d7-0af6e5fdcc9f"}
 }
 ##^##*/
 
